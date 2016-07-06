@@ -1,4 +1,4 @@
-package com.example.paka.notificationexample.firebase;
+package com.example.paka.myfirebasedemo.firebase;
 
 /**
  * Created by PONG on 6/28/2016 AD.
