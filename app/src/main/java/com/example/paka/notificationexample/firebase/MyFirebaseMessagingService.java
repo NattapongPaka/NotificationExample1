@@ -13,6 +13,8 @@ import android.media.RingtoneManager;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
+import com.example.paka.notificationexample.R;
+import com.example.paka.notificationexample.activity.MainActivity;
 import com.google.firebase.messaging.FirebaseMessagingService;
 import com.google.firebase.messaging.RemoteMessage;
 
@@ -20,8 +22,7 @@ import java.io.IOException;
 import java.net.URL;
 import java.util.Map;
 
-import dev.getconnectedapp.com.MainActivity;
-import dev.getconnectedapp.com.R;
+
 
 public class MyFirebaseMessagingService extends FirebaseMessagingService {
 	private String TAG = MyFirebaseMessagingService.class.getSimpleName();
